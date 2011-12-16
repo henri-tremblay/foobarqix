@@ -1,0 +1,7 @@
+<FindBugsFilter>
+  <Match>
+    <Class name="org.hjf.foobarqix.FooBarQixConsoleListener" />
+    <Method name="handleNumberResult" />
+    <Bug pattern="NP_ALWAYS_NULL" />
+  </Match>
+</FindBugsFilter>

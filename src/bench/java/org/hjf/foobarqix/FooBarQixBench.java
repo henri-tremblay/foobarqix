@@ -8,7 +8,7 @@ public class FooBarQixBench extends SimpleBenchmark {
 	private final FooBarQix service = new FooBarQix();
 	private final FooBarQixListener listener = new FooBarQixListener() {
 		@Override
-		public void handleNumberResult(int num, String s) {
+		public void handleNumberResult(int num, CharSequence s) {
 
 		}
 	};

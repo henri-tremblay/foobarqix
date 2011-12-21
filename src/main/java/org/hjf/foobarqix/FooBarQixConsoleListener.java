@@ -8,7 +8,7 @@ package org.hjf.foobarqix;
  */
 public class FooBarQixConsoleListener implements FooBarQixListener {
 	@Override
-	public void handleNumberResult(int num, String s) {
+	public void handleNumberResult(int num, CharSequence s) {
 		System.out.println(s);
 	}
 }

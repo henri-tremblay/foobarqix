@@ -27,11 +27,10 @@ public final class FooBarQix {
 	 * @param listener
 	 */
 	public void processNumbers(int firstNumber, int lastNumber, FooBarQixListener listener) {
-		StringBuilder result = new StringBuilder(12); // 12 being the longest possible result
 		for (int i = firstNumber; i <= lastNumber; i++) {
+			StringBuilder result = new StringBuilder(12); // 12 being the longest possible result
 			convertNumber(i, result);
-			listener.handleNumberResult(i, result.toString());
-			result.setLength(0);
+			listener.handleNumberResult(i, result);
 		}
 	}
 

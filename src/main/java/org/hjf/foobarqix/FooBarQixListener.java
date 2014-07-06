@@ -15,5 +15,5 @@ public interface FooBarQixListener {
 	 * @param num the converted number
 	 * @param s the result string for the number
 	 */
-	void handleNumberResult(int num, String s);
+	void handleNumberResult(int num, CharSequence s);
 }
